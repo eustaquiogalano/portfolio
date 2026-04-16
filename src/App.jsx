@@ -1,5 +1,12 @@
+import { Button } from "./components/ui/button";
+
 function App() {
-  return <h1>React Template</h1>;
+  return (
+    <div>
+      <h1>React Template</h1>
+      <Button>Click me</Button>
+    </div>
+  );
 }
 
 export default App;

@@ -1,5 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -9,11 +11,17 @@ export default defineConfig({
         plugins: ["babel-plugin-react-compiler"],
       },
     }),
+    tailwindcss(),
   ],
-  base: "change to repo-name", // replace with repo name
+  base: "/portfolio",
   test: {
     globals: true,
     environment: "jsdom",
     setupFiles: "./src/tests/setup.js",
+  },
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
   },
 });
