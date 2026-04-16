@@ -13,20 +13,7 @@ import { Button } from "./ui/button";
 function Nav() {
   return (
     <nav>
-      <NavigationMenu variant="light">
-        <NavigationMenuList>
-          <NavigationMenuItem>
-            <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
-          </NavigationMenuItem>
-
-          <NavigationMenuItem className="hidden md:flex">
-            <NavigationMenuTrigger>Components</NavigationMenuTrigger>
-          </NavigationMenuItem>
-        </NavigationMenuList>
-      </NavigationMenu>
-      <Button variant="primary" size="sm">
-        Sign in
-      </Button>
+      <Button variant="outline">Button</Button>
     </nav>
   );
 }
