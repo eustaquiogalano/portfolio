@@ -24,7 +24,7 @@ function Nav() {
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
-      <Button variant="outline" size="sm">
+      <Button variant="primary" size="sm">
         Sign in
       </Button>
     </nav>
