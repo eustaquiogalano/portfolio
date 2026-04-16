@@ -1,10 +1,9 @@
-import { Button } from "./components/ui/button";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <div>
-      <h1>React Template</h1>
-      <Button>Click me</Button>
+      <Nav />
     </div>
   );
 }
