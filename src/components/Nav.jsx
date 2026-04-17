@@ -12,9 +12,22 @@ import { Button } from "./ui/button";
 
 function Nav() {
   return (
-    <nav>
-      <Button variant="outline">Button</Button>
-    </nav>
+    <header className="bg-primary text-primary-foreground  pl-[10rem] pr-[10rem] pt-[1rem] pb-[1rem] flex items-center justify-between">
+      <p className="font-medium  ">eustaquio</p>
+      <NavigationMenu>
+        <NavigationMenuList>
+          <NavigationMenuItem>
+            <NavigationMenuLink href="#">Projects</NavigationMenuLink>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NavigationMenuLink href="#">Github</NavigationMenuLink>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NavigationMenuLink href="#">Contact</NavigationMenuLink>
+          </NavigationMenuItem>
+        </NavigationMenuList>
+      </NavigationMenu>
+    </header>
   );
 }
 
