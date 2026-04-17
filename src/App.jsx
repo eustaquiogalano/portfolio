@@ -3,7 +3,7 @@ import Nav from "./components/Nav";
 
 function App() {
   return (
-    <div>
+    <div className="max-w-2xl mx-auto px-4">
       <Nav />
       <Hero />
     </div>
