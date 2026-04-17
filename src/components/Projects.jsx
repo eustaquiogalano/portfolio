@@ -44,8 +44,24 @@ function Projects() {
                       <CardDescription>{project.description}</CardDescription>
                     </CardHeader>
                     <CardFooter className="flex flex-col gap-[.5rem] ">
-                      <Button className="w-full">Live Demo</Button>
-                      <Button className="w-full">Github</Button>
+                      <Button asChild variant="default" className="w-full">
+                        <a
+                          href={project.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Live Demo
+                        </a>
+                      </Button>
+                      <Button asChild variant="outline" className="w-full">
+                        <a
+                          href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Github
+                        </a>
+                      </Button>
                     </CardFooter>
                   </Card>
                 </div>

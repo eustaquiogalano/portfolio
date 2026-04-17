@@ -18,10 +18,16 @@ function Hero() {
         <Button className="" variant="default">
           View Projects
         </Button>
-        <Button className="" variant="secondary">
-          Github →
+        <Button asChild className="" variant="outline">
+          <a
+            href="https://github.com/eustaquiogalano"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github →
+          </a>
         </Button>
-        <Button className="" variant="secondary">
+        <Button className="" variant="outline">
           Email me →
         </Button>
       </div>

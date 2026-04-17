@@ -6,15 +6,21 @@ function Contact() {
     <section className="flex flex-col justify-center items-center text-center gap-4 p-[1rem]">
       <h2>Let's work together</h2>
       <p>Open to remote frontend roles. Feel free to reach out. </p>
-      <div>
-        <Button asChild>
+      <div className="flex gap-[.5rem]">
+        <Button asChild variant="secondary">
           <a href="mailto:your-email@example.com">Email</a>
         </Button>
-        <Button asChild>
+        <Button asChild variant="secondary">
           <a href="mailto:your-email@example.com">LinkedIn</a>
         </Button>
-        <Button asChild>
-          <a href="mailto:your-email@example.com">GitHub</a>
+        <Button asChild variant="secondary">
+          <a
+            href="https://github.com/eustaquiogalano"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
         </Button>
       </div>
     </section>
