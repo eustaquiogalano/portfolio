@@ -21,7 +21,7 @@ import { Badge } from "./ui/badge";
 
 function Projects() {
   return (
-    <section className="flex flex-col items-center justify-center mt-4 p-[1rem]  rounded-lg">
+    <section className="flex flex-col items-center justify-center p-[1rem] ">
       <Carousel className="w-full max-w-[12rem] sm:max-w-xs">
         <CarouselContent>
           {projects.map((project) => {
