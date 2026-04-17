@@ -8,7 +8,6 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
-import { Button } from "./ui/button";
 
 function Nav() {
   return (
