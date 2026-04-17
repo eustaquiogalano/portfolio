@@ -13,7 +13,7 @@ export default defineConfig({
       },
     }),
   ],
-  base: "/portfolio",
+  base: "/",
   test: {
     globals: true,
     environment: "jsdom",
