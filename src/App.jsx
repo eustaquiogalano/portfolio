@@ -5,7 +5,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="max-w-2xl mx-auto flex flex-col gap-[2rem]">
+    <div className="mx-auto flex flex-col gap-[2rem]">
       <Nav />
       <Hero />
       <Projects />
