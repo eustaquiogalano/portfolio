@@ -22,11 +22,11 @@ import { Badge } from "./ui/badge";
 function Projects() {
   return (
     <section className="flex flex-col items-center justify-center p-[1rem] ">
-      <Carousel className="w-full max-w-[12rem] sm:max-w-xs">
-        <CarouselContent>
+      <Carousel className="w-full max-w-[14rem] sm:max-w-[50rem]  ">
+        <CarouselContent className="">
           {projects.map((project) => {
             return (
-              <CarouselItem>
+              <CarouselItem className="sm:basis-1/2 ">
                 <div className="p-1">
                   <Card className="relative mx-auto w-full max-w-sm pt-0">
                     <div className="absolute inset-0 z-30 aspect-video bg-black/35" />
@@ -69,8 +69,8 @@ function Projects() {
             );
           })}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <CarouselPrevious className="sm:hidden" />
+        <CarouselNext className="sm:hidden" />
       </Carousel>
     </section>
   );
