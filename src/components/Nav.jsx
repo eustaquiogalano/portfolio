@@ -11,7 +11,7 @@ import {
 
 function Nav() {
   return (
-    <header className="bg-primary text-primary-foreground p-[1rem] flex items-center justify-between">
+    <header className="bg-primary text-primary-foreground p-[1rem] flex items-center justify-between md:px-[5rem] xl:px-[10rem] 2xl:px-[20rem]">
       <p className="font-medium  ">eustaquio</p>
       <NavigationMenu>
         <NavigationMenuList>
