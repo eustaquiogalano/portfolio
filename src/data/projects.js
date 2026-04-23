@@ -1,7 +1,10 @@
+import schoolWebsiteImg from "../assets/images/calendar_sapshot.png";
+import lapshopImg from "../assets/images/lap-shop.png";
+
 export const projects = [
   {
     title: "Academic Calendar & Document Request",
-    img: "src/assets/images/calendar_sapshot.png",
+    img: schoolWebsiteImg,
     description:
       "A web application built with React and Tailwind CSS that allows students to view their academic calendar and request documents such as transcripts and certificates.",
     link: "https://calendar-vmc.pages.dev/",
@@ -9,8 +12,7 @@ export const projects = [
   },
   {
     title: "Shopping Cart",
-    img: "src/assets/images/lap-shop.png",
-
+    img: lapshopImg,
     description:
       "A simple shopping cart application built with React. It allows users to add items to their cart, view the cart, and proceed to checkout.",
     link: "https://shopping-cart-odin.pages.dev/",
