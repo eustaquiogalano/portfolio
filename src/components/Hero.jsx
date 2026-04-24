@@ -15,10 +15,7 @@ function Hero() {
         I build things for the web.
       </p>
       <div className="mt-4 flex gap-[.5rem]">
-        <Button
-          variant="accent"
-          className="hover:bg-secondary hover:text-secondary-foreground"
-        >
+        <Button variant="accent" className="">
           View Projects
         </Button>
         <Button asChild className="" variant="outline">
