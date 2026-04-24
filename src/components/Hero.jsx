@@ -10,8 +10,10 @@ function Hero() {
         <BadgeIcon />
         open to work
       </Badge>
-      <h1 className="text-5xl font-bold mt-4">A Frontend Developer</h1>
-      <p className="text-lg mt-2 text-muted-foreground">
+      <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold mt-4">
+        A Frontend Developer
+      </h1>
+      <p className="text-sm md:text-base mt-2 text-muted-foreground">
         I build things for the web.
       </p>
       <div className="mt-4 flex gap-[.5rem]">
