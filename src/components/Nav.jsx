@@ -11,18 +11,33 @@ import {
 
 function Nav() {
   return (
-    <header className="bg-primary text-primary-foreground p-[1rem] flex items-center justify-between md:px-[5rem] xl:px-[10rem] 2xl:px-[20rem]">
+    <header className="bg-secondary text-secondary-foreground p-[1rem] flex items-center justify-between md:px-[5rem] xl:px-[10rem] 2xl:px-[20rem] ">
       <p className="font-medium  ">eustaquio</p>
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuLink href="#">Projects</NavigationMenuLink>
+            <NavigationMenuLink
+              className="hover:bg-accent hover:text-accent-foreground"
+              href="#"
+            >
+              Projects
+            </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <NavigationMenuLink href="#">Github</NavigationMenuLink>
+            <NavigationMenuLink
+              className="hover:bg-accent hover:text-accent-foreground"
+              href="#"
+            >
+              Github
+            </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <NavigationMenuLink href="#">Contact</NavigationMenuLink>
+            <NavigationMenuLink
+              className="hover:bg-accent hover:text-accent-foreground"
+              href="#"
+            >
+              Contact
+            </NavigationMenuLink>
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>

@@ -28,7 +28,7 @@ function Projects() {
             return (
               <CarouselItem className="sm:basis-1/2 ">
                 <div className="p-1">
-                  <Card className="relative mx-auto w-full max-w-sm pt-0">
+                  <Card className="relative mx-auto w-full max-w-sm pt-0 bg-secondary text-secondary-foreground">
                     {/* <div className="absolute inset-0 z-30 aspect-video bg-black/35" /> */}
                     <img
                       src={project.img}
@@ -38,13 +38,13 @@ function Projects() {
                     <CardHeader className="flex flex-col gap-[1rem]">
                       <CardTitle>{project.title}</CardTitle>
                       <CardAction>
-                        <Badge variant="secondary">React</Badge>
-                        <Badge variant="secondary">Tailwind CSS</Badge>
+                        <Badge variant="accent">React</Badge>
+                        <Badge variant="accent">Tailwind CSS</Badge>
                       </CardAction>
                       <CardDescription>{project.description}</CardDescription>
                     </CardHeader>
                     <CardFooter className="flex flex-col gap-[.5rem] ">
-                      <Button asChild variant="default" className="w-full">
+                      <Button asChild variant="accent" className="w-full">
                         <a
                           href={project.link}
                           target="_blank"

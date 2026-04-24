@@ -7,13 +7,13 @@ function Contact() {
       <h2>Let's work together</h2>
       <p>Open to remote frontend roles. Feel free to reach out. </p>
       <div className="flex gap-[.5rem]">
-        <Button asChild variant="secondary">
+        <Button asChild variant="outline">
           <a href="mailto:your-email@example.com">Email</a>
         </Button>
-        <Button asChild variant="secondary">
+        <Button asChild variant="outline">
           <a href="mailto:your-email@example.com">LinkedIn</a>
         </Button>
-        <Button asChild variant="secondary">
+        <Button asChild variant="outline">
           <a
             href="https://github.com/eustaquiogalano"
             target="_blank"
