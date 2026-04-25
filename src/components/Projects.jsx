@@ -23,7 +23,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="flex flex-col items-center justify-center p-[1rem] "
+      className="flex flex-col items-center justify-center p-[1rem] h-full snap-start"
     >
       <Carousel className="w-full max-w-[14rem] sm:max-w-[50rem]  ">
         <CarouselContent className="">

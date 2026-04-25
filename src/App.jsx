@@ -12,11 +12,13 @@ function App() {
         <AppSidebar />
       </div>
       <SidebarInset>
-        <div className=" flex flex-col gap-[2rem]">
+        <div className=" flex flex-col">
           <Nav />
-          <Hero />
-          <Projects />
-          <Contact />
+          <main className="h-[calc(100dvh-4rem)] overflow-y-scroll snap-y snap-mandatory">
+            <Hero />
+            <Projects />
+            <Contact />
+          </main>
         </div>
       </SidebarInset>
     </>

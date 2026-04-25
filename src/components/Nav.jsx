@@ -12,7 +12,7 @@ import { SidebarTrigger } from "./ui/sidebar";
 
 function Nav() {
   return (
-    <header className="bg-secondary text-secondary-foreground p-[1rem] flex items-center justify-between md:px-[5rem] xl:px-[10rem] 2xl:px-[20rem] ">
+    <header className="bg-secondary text-secondary-foreground p-[1rem] flex items-center justify-between md:px-[5rem] xl:px-[10rem] 2xl:px-[20rem] h-16 ">
       <p className="text-sm">eustaquio</p>
       <SidebarTrigger className="sm:hidden"></SidebarTrigger>
       <NavigationMenu className="hidden sm:flex">

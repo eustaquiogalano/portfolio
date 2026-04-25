@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 
 function Hero() {
   return (
-    <section className="overflow-hidden p-[1rem] flex flex-col items-center justify-center gap-[1rem] text-center text-primary-foreground">
+    <section className="overflow-hidden p-[1rem] flex flex-col items-center justify-center gap-[1rem] text-center text-primary-foreground h-full snap-start">
       <Badge className="" variant="accent">
         <BadgeIcon />
         open to work
