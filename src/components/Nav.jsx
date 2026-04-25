@@ -16,11 +16,11 @@ function Nav() {
       <p className="text-sm">eustaquio</p>
       <SidebarTrigger className="sm:hidden"></SidebarTrigger>
       <NavigationMenu className="hidden sm:flex">
-        <NavigationMenuList>
+        <NavigationMenuList className="flex gap-[1rem]">
           <NavigationMenuItem>
             <NavigationMenuLink
               className="hover:bg-accent hover:text-accent-foreground"
-              href="#"
+              href="#projects"
             >
               Projects
             </NavigationMenuLink>
@@ -28,7 +28,9 @@ function Nav() {
           <NavigationMenuItem>
             <NavigationMenuLink
               className="hover:bg-accent hover:text-accent-foreground"
-              href="#"
+              href="https://github.com/eustaquiogalano"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Github
             </NavigationMenuLink>
@@ -36,7 +38,7 @@ function Nav() {
           <NavigationMenuItem>
             <NavigationMenuLink
               className="hover:bg-accent hover:text-accent-foreground"
-              href="#"
+              href="#contacts"
             >
               Contact
             </NavigationMenuLink>
