@@ -40,7 +40,7 @@ function Projects() {
                     />
                     <CardHeader className="flex flex-col gap-[1rem]">
                       <CardTitle>{project.title}</CardTitle>
-                      <CardAction>
+                      <CardAction className="flex gap-[.25rem]">
                         <Badge variant="accent">React</Badge>
                         <Badge variant="accent">Tailwind CSS</Badge>
                       </CardAction>
