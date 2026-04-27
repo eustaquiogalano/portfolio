@@ -16,7 +16,13 @@ function Contact() {
           <a href="mailto:eustaquio.galano@gmail.com">Email</a>
         </Button>
         <Button asChild variant="outline">
-          <a href="mailto:your-email@example.com">LinkedIn</a>
+          <a
+            href="https://www.linkedin.com/in/eustaquio-galano-53002b261/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
         </Button>
         <Button asChild variant="outline">
           <a
