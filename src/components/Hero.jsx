@@ -17,8 +17,8 @@ function Hero() {
         I build things for the web.
       </p>
       <div className="mt-4 flex gap-[.5rem]">
-        <Button variant="accent" className="">
-          View Projects
+        <Button asChild variant="accent" className="">
+          <a href="#projects">View Projects</a>
         </Button>
         <Button asChild className="" variant="outline">
           <a
@@ -30,7 +30,7 @@ function Hero() {
           </a>
         </Button>
         <Button className="" variant="outline">
-          Email me →
+          <a href="mailto:eustaquio.galano@gmail.com">Email me →</a>
         </Button>
       </div>
     </section>

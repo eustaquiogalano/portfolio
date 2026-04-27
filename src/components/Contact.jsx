@@ -13,7 +13,7 @@ function Contact() {
       </p>
       <div className="flex gap-[.5rem]">
         <Button asChild variant="outline">
-          <a href="mailto:your-email@example.com">Email</a>
+          <a href="mailto:eustaquio.galano@gmail.com">Email</a>
         </Button>
         <Button asChild variant="outline">
           <a href="mailto:your-email@example.com">LinkedIn</a>
